@@ -1,0 +1,183 @@
+/* NAVBAR STYLE */
+.navbar{
+  background-color: #4e98a3;
+  .navbar-brand{
+      font-size: 30px;
+      margin-left: 200px;
+      color:#f8ffff;
+  }
+  .nav{
+      margin-right:10%;
+      a{
+          color: #f8ffff;
+      }
+  }
+}
+
+/*CAROUSEL STYLE */
+
+.owl-dots{
+  top:530px;
+  left: 48%;
+  text-align: center;
+  display: block;
+  position: absolute;
+}
+.owl-carousel{
+  background-image: url("/img/chmury.jpeg");
+  background-size:100% 600px;
+
+}
+.slide1{
+ 
+  height: 600px;
+  p{
+      font-size: 60px;
+      padding-top:200px;
+      text-align: center;
+      color:white;
+  }
+}
+
+.btn-default {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  box-shadow: none;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+ }
+
+ /*CONTENT */
+.content1{
+  height: 300px;
+  text-align: center;
+  padding-top:70px;
+  span{
+      font-size: 30px;
+      }
+}
+.content2{
+  height: 200px;
+  i{
+    font-size: 70px;
+    color: #5db5c9;
+  }
+}
+
+/*QUOTE */
+.quote{
+  height: 300px;
+  p{
+    font-size: 300px;
+  }
+  .citation-icon i{
+    font-size: 100px;
+    color: #34d9a1;
+  }
+  .person img{
+    margin-top: 80px;
+    width:140px;
+    height: 140px;
+    filter: grayscale(100%);
+  }
+  .person-name{
+    margin-top: 90px;
+    color:white;
+    font-size: 20px;
+  }
+}
+
+.quote-text{
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#all-quote{
+  background-color: green;
+}
+
+#all-quote .item{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*QUOTE SLIDER*/
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;animation-fill-mode: both;
+}
+
+@-webkit-keyframes fade {
+  0% {opacity: 0}
+  40% {opacity: 1}
+  80% {opacity: 1}
+  100%  {opacity: 0}
+}
+
+@keyframes fade {
+  0% {opacity: 0}
+ 40% {opacity: 1}
+  80% {opacity: 1}
+  100%  {opacity: 0}
+}
+
+.all-quote{
+  background-color: #01d08a;
+  p{
+    color:white;
+  }
+  height: 500px;
+}
+
+.map{
+  background-image: url("/img/mapa.jpeg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+.circle {
+  background-color: white;
+  opacity: 0.95;
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
+  margin-top: 10%;
+  .container{
+    width: 300px;
+    height: 300px;
+    padding-top:80px;
+    opacity: 0.9;
+   }
+  }
+
+/*FOOTER */
+.footer{
+  height: 50px;
+  background-color: #01d08a;
+  P{
+    color: white;
+    text-align: center;
+    margin-top:10px;
+  }
+   
+}
+.btn-circle {
+  width: 60px;
+  height: 60px;
+  padding: 6px 0px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+  i{
+    font-size: 40px;
+  }
+}
+
+
